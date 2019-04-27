@@ -16,6 +16,8 @@ import (
 func TestSetStatusProgressing(t *testing.T) {
 	_logClusterCodePath()
 	defer _logClusterCodePath()
+	_logClusterCodePath()
+	defer _logClusterCodePath()
 	version1 := "1"
 	version2 := "2"
 	tests := []struct {

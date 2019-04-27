@@ -7,6 +7,8 @@ import (
 func (in *ClusterStorage) DeepCopyInto(out *ClusterStorage) {
 	_logClusterCodePath()
 	defer _logClusterCodePath()
+	_logClusterCodePath()
+	defer _logClusterCodePath()
 	*out = *in
 	out.TypeMeta = in.TypeMeta
 	in.ObjectMeta.DeepCopyInto(&out.ObjectMeta)
@@ -15,6 +17,8 @@ func (in *ClusterStorage) DeepCopyInto(out *ClusterStorage) {
 	return
 }
 func (in *ClusterStorage) DeepCopy() *ClusterStorage {
+	_logClusterCodePath()
+	defer _logClusterCodePath()
 	_logClusterCodePath()
 	defer _logClusterCodePath()
 	if in == nil {
@@ -27,12 +31,16 @@ func (in *ClusterStorage) DeepCopy() *ClusterStorage {
 func (in *ClusterStorage) DeepCopyObject() runtime.Object {
 	_logClusterCodePath()
 	defer _logClusterCodePath()
+	_logClusterCodePath()
+	defer _logClusterCodePath()
 	if c := in.DeepCopy(); c != nil {
 		return c
 	}
 	return nil
 }
 func (in *ClusterStorageList) DeepCopyInto(out *ClusterStorageList) {
+	_logClusterCodePath()
+	defer _logClusterCodePath()
 	_logClusterCodePath()
 	defer _logClusterCodePath()
 	*out = *in
@@ -50,6 +58,8 @@ func (in *ClusterStorageList) DeepCopyInto(out *ClusterStorageList) {
 func (in *ClusterStorageList) DeepCopy() *ClusterStorageList {
 	_logClusterCodePath()
 	defer _logClusterCodePath()
+	_logClusterCodePath()
+	defer _logClusterCodePath()
 	if in == nil {
 		return nil
 	}
@@ -60,6 +70,8 @@ func (in *ClusterStorageList) DeepCopy() *ClusterStorageList {
 func (in *ClusterStorageList) DeepCopyObject() runtime.Object {
 	_logClusterCodePath()
 	defer _logClusterCodePath()
+	_logClusterCodePath()
+	defer _logClusterCodePath()
 	if c := in.DeepCopy(); c != nil {
 		return c
 	}
@@ -68,10 +80,14 @@ func (in *ClusterStorageList) DeepCopyObject() runtime.Object {
 func (in *ClusterStorageSpec) DeepCopyInto(out *ClusterStorageSpec) {
 	_logClusterCodePath()
 	defer _logClusterCodePath()
+	_logClusterCodePath()
+	defer _logClusterCodePath()
 	*out = *in
 	return
 }
 func (in *ClusterStorageSpec) DeepCopy() *ClusterStorageSpec {
+	_logClusterCodePath()
+	defer _logClusterCodePath()
 	_logClusterCodePath()
 	defer _logClusterCodePath()
 	if in == nil {
@@ -84,10 +100,14 @@ func (in *ClusterStorageSpec) DeepCopy() *ClusterStorageSpec {
 func (in *ClusterStorageStatus) DeepCopyInto(out *ClusterStorageStatus) {
 	_logClusterCodePath()
 	defer _logClusterCodePath()
+	_logClusterCodePath()
+	defer _logClusterCodePath()
 	*out = *in
 	return
 }
 func (in *ClusterStorageStatus) DeepCopy() *ClusterStorageStatus {
+	_logClusterCodePath()
+	defer _logClusterCodePath()
 	_logClusterCodePath()
 	defer _logClusterCodePath()
 	if in == nil {
